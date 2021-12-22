@@ -28,6 +28,6 @@ def Monkey_sort(sum):
 if __name__ == "__main__":
     # user_input = input("Enter a number to indicate that there are several numbers to MonkeySort :\n")
     start = time.time()
-    user_input=6
+    user_input=3
     k=Monkey_sort(user_input)
     print(time.time()-start)
